@@ -1,0 +1,213 @@
+* {
+    font-family: Roboto Condensed, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+#canvas-container {
+    width: auto;
+    height: auto;
+}
+
+#menu {
+    width: 350px;
+    height: 460px;
+    top: calc(50% - 230px);
+    left: calc(50% - 175px);
+    position: absolute;
+    border: solid;
+    border-width: 2px;
+    border-color: #515151;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#input-name {
+    width: 220px;
+    height: 50px;
+    padding-left: 5px;
+    margin: 10px 10px;
+    font-size: 20px;
+    float: left;
+    border-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#button-join {
+    width: 100px;
+    height: 50px;
+    margin: 10px 10px 10px 0px;
+    font-size: 20px;
+    float: right;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.client-num {
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: 15px;
+    color:white;
+}
+
+.button-ready {
+    width: 15px;
+    height: 15px;
+    display: none;
+    border-radius: 100%;
+    cursor: pointer;
+    background-color: red;
+}
+
+.button-ready:hover {
+    box-shadow: inset 0px 0px 2px black;
+}
+
+.button-ready:active {
+    box-shadow: inset 0px 0px 5px black;
+}
+
+#button-ready-1 {
+    top: 112px;
+    right: 20px;
+    position: absolute;
+}
+
+#button-ready-2 {
+    top: 147px;
+    right: 20px;
+    position: absolute;
+}
+
+#button-ready-3 {
+    top: 182px;
+    right: 20px;
+    position: absolute;
+}
+
+#button-ready-4 {
+    top: 217px;
+    right: 20px;
+    position: absolute;
+}
+
+#text-holder {
+    position: absolute;
+    bottom: 0px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #515151;
+}
+
+.header-text {
+    margin: 10px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.instr-text {
+    margin-left: 10px;
+    font-size: 15px;
+    color:white;
+}
+
+#blue {
+    color: deepskyblue;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#button-join:hover, #button-end:hover {
+    box-shadow: inset 0px 0px 1px black;
+}
+
+#button-join:active, #button-end:active {
+    box-shadow: inset 0px 0px 5px black;
+}
+
+#end-text {
+    display: none;
+    width: 350px;
+    height: 100px;
+    top: calc(50% - 50px);
+    left: calc(50% - 173px);
+    position: absolute;
+    border: solid;
+    border-width: 2px;
+    border-color: #515151;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#end-text-lost {
+    margin: 10px auto 5px auto;
+    font-size: 26px;
+    color: white;
+}
+
+#button-end {
+    height: 40px;
+    margin: 5px auto 10px auto;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#end-menu {
+    display: none;
+    width: 350px;
+    height: 540px;
+    top: calc(50% - 250px);
+    left: calc(50% - 175px);
+    position: absolute;
+    border: solid;
+    border-width: 2px;
+    border-color: #515151;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#high-score {
+    margin: 20px auto 30px auto;
+}
+
+.number {
+    margin: 20px 10px;
+    float: left;
+}
+
+.score {
+    margin: 20px 10px;
+    float: right;
+}
+
+#button-again {
+    width: 110px;
+    height: 40px;
+    bottom: 15px;
+    left: 120px;
+    position: absolute;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#button-again:hover, #button-end:hover {
+    box-shadow: inset 0px 0px 2px black;
+}
+
+#button-again:active, #button-end:active {
+    box-shadow: inset 0px 0px 5px black;
+}
